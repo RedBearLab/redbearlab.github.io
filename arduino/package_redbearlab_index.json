@@ -14,7 +14,7 @@
                "architecture":"avr",
                "version":"1.0.0",
                "category":"RedBearLab",
-               "url":"https://github.com/RedBearLab/redbearlab.github.io/arduino/Blend/redbearlabboards_blend.zip",
+               "url":"https://redbearlab.github.io/arduino/Blend/redbearlabboards_blend.zip",
                "archiveFileName":"adafruit-1.1.0.tar.bz2",
                "checksum":"SHA-256:49ECF8836C275D477BEAD654EB21AB9D4FBE1E1D87DB7BBE6DB17366BEAB810F",
                "size":"137477",
