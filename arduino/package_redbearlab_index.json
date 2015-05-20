@@ -10,7 +10,7 @@
 		{
 			"name":"RedBearLab AVR Boards",
 			"architecture":"avr",
-			"version":"1.0.0",
+			"version":"1.0.1",
 			"category":"RedBearLab",
 			"url":"https://redbearlab.github.io/arduino/Blend/redbearlabboards_blend.zip",
 			"archiveFileName":"redbearlabboards_blend.zip",
