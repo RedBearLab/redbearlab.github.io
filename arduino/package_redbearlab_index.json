@@ -14,8 +14,8 @@
 			"category":"RedBearLab",
 			"url":"https://redbearlab.github.io/arduino/Blend/redbearlabboards_blend.zip",
 			"archiveFileName":"redbearlabboards_blend.zip",
-			"checksum":"SHA-256:49ECF8836C275D477BEAD654EB21AB9D4FBE1E1D87DB7BBE6DB17366BEAB810F",
-			"size":"137477",
+			"checksum":"SHA-256:25CB4A07C1998467BEEE5A88C626AD10D9338E0BFCE00EC55F244C2699A63698",
+			"size":"137738",
 			"help":{ "online":"https://redbearlab.zendesk.com/home" },
 			"boards":[
 				{ "name":"Blend" },
