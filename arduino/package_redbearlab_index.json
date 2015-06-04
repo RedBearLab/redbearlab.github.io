@@ -4,8 +4,8 @@
         "name":"RedBearLab",
         "maintainer":"RedBearLab",
         "websiteURL":"https://redbearlab.com",
-        "email":"info@redbearlab.cc",
-        "help":{ "online":"https://redbearlab.zendesk.com/home" },
+        "email":"support@redbearlab.com",
+        "help":{ "online":"https://redbearlab.zendesk.com/forums" },
         "platforms":
 		{
 			"name":"RedBearLab AVR Boards",
