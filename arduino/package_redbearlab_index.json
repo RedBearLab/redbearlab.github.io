@@ -3,7 +3,7 @@
     {
         "name":"RedBearLab",
         "maintainer":"RedBearLab",
-        "websiteURL":"https://redbearlab.com",
+        "websiteURL":"http://redbearlab.com",
         "email":"support@redbearlab.com",
         "help":{ "online":"https://redbearlab.zendesk.com/forums" },
         "platforms":
