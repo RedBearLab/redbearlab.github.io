@@ -48,7 +48,7 @@
 				"boards": [
 					{"name": "RBL nRF51822"},
 					{"name": "RBL nRF51822 (32K RAM)"},
-					{"name": "BLE Nano"}
+					{"name": "BLE Nano"},
 					{"name": "BLE Nano (32K RAM)"}
 				],
 				"toolsDependencies": [
