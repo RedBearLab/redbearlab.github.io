@@ -43,8 +43,8 @@
 				"category": "RedBearLab",
 				"url": "https://redbearlab.github.io/arduino/nRF51822/nRF51822.zip",
 				"archiveFileName": "nRF51822.zip",
-				"checksum": "SHA-256:3D83CD0E7BB154B86273392577053C365821FA7F4D66E19060BC10A4DDF7EB88",
-				"size": "1382927",
+				"checksum": "SHA-256:AEC9E877E002A78CF5184CEB4E4FE1CB0D0A73C7E2C274DF1C019C9563FA31E3",
+				"size": "1382890",
 				"boards": [
 					{"name": "RBL nRF51822"},
 					{"name": "RBL nRF51822 (32K RAM)"},
@@ -53,12 +53,12 @@
 				],
 				"toolsDependencies": [
 					{
-						"packager": "arduino",
+						"packager": "RedBearLab",
 						"name": "arm-none-eabi-gcc",
 						"version": "4.8.3-2014q1"
 					},
 					{
-						"packager": "arduino",
+						"packager": "RedBearLab",
 						"name": "bossac",
 						"version": "1.3a-arduino"
 					},
