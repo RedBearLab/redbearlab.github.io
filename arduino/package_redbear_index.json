@@ -7,30 +7,56 @@
 		"email":"support@redbearlab.com",
 		"help":{ "online":"https://redbearlab.zendesk.com/forums" },
 		"platforms": 
-			{
-				"name": "RedBear Duo (32-bits ARM Cortext-M3)",
-				"architecture": "STM32F2",
-				"version": "0.1.1",
-				"category": "RedBear",
-				"url": "https://redbearlab.github.io/arduino/Duo/duo_board.zip",
-				"archiveFileName": "duo_board.zip",
-				"checksum": "SHA-256:F9494A068E7BA75DBC3A17CF1AD0ACD0ED699D63752992798D40E2E16C6FC971",
-				"size": "5570535",
-				"boards": {"name": "RedBear Duo"},
-				"toolsDependencies": 
-					[
-						{
-							"packager": "RedBear",
-							"name": "arm-none-eabi-gcc",
-							"version": "4.9-2015-q3"
-						},
-						{
-							"packager":"arduino",
-							"name":"avrdude",
-							"version":"6.0.1-arduino5"
-						}
-					]
-			},
+			[
+				{
+					"name": "RedBear Duo (32-bits ARM Cortext-M3)",
+					"architecture": "STM32F2",
+					"version": "0.1.1",
+					"category": "RedBear",
+					"url": "https://redbearlab.github.io/arduino/Duo/duo_board.zip",
+					"archiveFileName": "duo_board.zip",
+					"checksum": "SHA-256:F9494A068E7BA75DBC3A17CF1AD0ACD0ED699D63752992798D40E2E16C6FC971",
+					"size": "5570535",
+					"boards": {"name": "RedBear Duo"},
+					"toolsDependencies": 
+						[
+							{
+								"packager": "RedBear",
+								"name": "arm-none-eabi-gcc",
+								"version": "4.9-2015-q3"
+							},
+							{
+								"packager":"arduino",
+								"name":"avrdude",
+								"version":"6.0.1-arduino5"
+							}
+						]
+				},
+				{
+					"name": "RedBear Duo (32-bits ARM Cortext-M3)",
+					"architecture": "STM32F2",
+					"version": "0.1.2",
+					"category": "RedBear",
+					"url": "https://redbearlab.github.io/arduino/Duo/duo_board_v0.1.2.zip",
+					"archiveFileName": "duo_board_v0.1.2.zip",
+					"checksum": "SHA-256:019C11EE041463F4F78B5A39471621492F958419E27C328EF41B09CF00C922B1",
+					"size": "5570458",
+					"boards": {"name": "RedBear Duo"},
+					"toolsDependencies": 
+						[
+							{
+								"packager": "RedBear",
+								"name": "arm-none-eabi-gcc",
+								"version": "4.9-2015-q3"
+							},
+							{
+								"packager":"arduino",
+								"name":"avrdude",
+								"version":"6.0.1-arduino5"
+							}
+						]
+				}
+			],
 		"tools":
 			{
 				"name": "arm-none-eabi-gcc",
