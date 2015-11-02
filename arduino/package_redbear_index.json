@@ -11,12 +11,12 @@
 				{
 					"name": "RedBear Duo (32-bits ARM Cortext-M3)",
 					"architecture": "STM32F2",
-					"version": "0.1.1",
+					"version": "0.1.2",
 					"category": "RedBear",
-					"url": "https://redbearlab.github.io/arduino/Duo/duo_board.zip",
-					"archiveFileName": "duo_board.zip",
-					"checksum": "SHA-256:F9494A068E7BA75DBC3A17CF1AD0ACD0ED699D63752992798D40E2E16C6FC971",
-					"size": "5570535",
+					"url": "https://redbearlab.github.io/arduino/Duo/duo_board_v0.1.2.zip",
+					"archiveFileName": "duo_board_v0.1.2.zip",
+					"checksum": "SHA-256:399D7866765BD10D8233624C117A12568AF1F53A8BB95ADED42E121DA8FC7095",
+					"size": "5570452",
 					"boards": {"name": "RedBear Duo"},
 					"toolsDependencies": 
 						[
@@ -35,12 +35,12 @@
 				{
 					"name": "RedBear Duo (32-bits ARM Cortext-M3)",
 					"architecture": "STM32F2",
-					"version": "0.1.2",
+					"version": "0.1.3",
 					"category": "RedBear",
-					"url": "https://redbearlab.github.io/arduino/Duo/duo_board_v0.1.2.zip",
-					"archiveFileName": "duo_board_v0.1.2.zip",
-					"checksum": "SHA-256:399D7866765BD10D8233624C117A12568AF1F53A8BB95ADED42E121DA8FC7095",
-					"size": "5570452",
+					"url": "https://redbearlab.github.io/arduino/Duo/duo_board_v0.1.3.zip",
+					"archiveFileName": "duo_board_v0.1.3.zip",
+					"checksum": "SHA-256:1C31B55140B9732B087EF9CBC0D5B39BABDD11EB5F1662FB59B2662F1FFEFAB4",
+					"size": "5575166",
 					"boards": {"name": "RedBear Duo"},
 					"toolsDependencies": 
 						[
