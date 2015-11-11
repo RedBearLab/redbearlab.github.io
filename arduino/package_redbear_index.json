@@ -65,10 +65,10 @@
 					[
 						{
 							"host": "i686-mingw32",
-							"archiveFileName": "gcc-arm-none-eabi-4_9-2015q3-20150921-win32.zip",
-							"url": "https://launchpad.net/gcc-arm-embedded/4.9/4.9-2015-q3-update/+download/gcc-arm-none-eabi-4_9-2015q3-20150921-win32.zip",
-							"checksum": "MD5:d944be40a5bdb2327d80db23290c6b9d",
-							"size": "98465351"
+							"archiveFileName": "gcc-arm-none-eabi-4_9-2015q3-20150921-win32.tar.bz2",
+							"url": "https://redbearlab.github.io/gcc-arm/gcc-arm-none-eabi-4_9-2015q3-20150921-win32.tar.bz2",
+							"checksum": "MD5:ab89287f32a453b61111ae43fd8599b2",
+							"size": "82612411"
 						},
 						{
 							"host": "x86_64-apple-darwin",
