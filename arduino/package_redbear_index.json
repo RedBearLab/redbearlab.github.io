@@ -67,8 +67,8 @@
 							"host": "i686-mingw32",
 							"archiveFileName": "gcc-arm-none-eabi-4_9-2015q3-20150921-win32.tar.bz2",
 							"url": "https://redbearlab.github.io/gcc-arm/gcc-arm-none-eabi-4_9-2015q3-20150921-win32.tar.bz2",
-							"checksum": "MD5:ab89287f32a453b61111ae43fd8599b2",
-							"size": "82612411"
+							"checksum": "MD5:aef73c8af927427a7640ab20b5177d7d",
+							"size": "82648992"
 						},
 						{
 							"host": "x86_64-apple-darwin",
