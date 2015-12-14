@@ -1,97 +1,73 @@
 {
-	"packages":
-	{
-		"name":"RedBear",
-		"maintainer":"RedBear",
-		"websiteURL":"http://redbearlab.com",
-		"email":"support@redbearlab.com",
-		"help":{ "online":"https://redbearlab.zendesk.com/forums" },
-		"platforms": 
-			[
-				{
-					"name": "RedBear Duo (32-bits ARM Cortext-M3)",
-					"architecture": "STM32F2",
-					"version": "0.1.5",
-					"category": "RedBear",
-					"url": "https://redbearlab.github.io/arduino/Duo/duo_board_v0.1.5.zip",
-					"archiveFileName": "duo_board_v0.1.5.zip",
-					"checksum": "SHA-256:CC10665354BA2231DFA0DB10C66E8AC731079438DD825E00144A6EF495143822",
-					"size": "5575259",
-					"boards": {"name": "RedBear Duo"},
-					"toolsDependencies": 
-						[
-							{
-								"packager": "RedBear",
-								"name": "arm-none-eabi-gcc",
-								"version": "4.9-2015-q3"
-							},
-							{
-								"packager":"arduino",
-								"name":"avrdude",
-								"version":"6.0.1-arduino5"
-							}
-						]
-				},
-				{
-					"name": "RedBear Duo (32-bits ARM Cortext-M3)",
-					"architecture": "STM32F2",
-					"version": "0.1.6",
-					"category": "RedBear",
-					"url": "https://redbearlab.github.io/arduino/Duo/duo_board_v0.1.6.zip",
-					"archiveFileName": "duo_board_v0.1.6.zip",
-					"checksum": "SHA-256:E5F0520B7DDAFC84BEBCC2373956F4323A791832186411E1B70C87B54662A09D",
-					"size": "5575258",
-					"boards": {"name": "RedBear Duo"},
-					"toolsDependencies": 
-						[
-							{
-								"packager": "RedBear",
-								"name": "arm-none-eabi-gcc",
-								"version": "4.9-2015-q3"
-							},
-							{
-								"packager":"arduino",
-								"name":"avrdude",
-								"version":"6.0.1-arduino5"
-							}
-						]
-				}
-			],
-		"tools":
-			{
-				"name": "arm-none-eabi-gcc",
-				"version": "4.9-2015-q3",
-				"systems": 
-					[
-						{
-							"host": "i686-mingw32",
-							"archiveFileName": "gcc-arm-none-eabi-4_9-2015q3-20150921-win32.tar.bz2",
-							"url": "https://redbearlab.github.io/gcc-arm/gcc-arm-none-eabi-4_9-2015q3-20150921-win32.tar.bz2",
-							"checksum": "MD5:aef73c8af927427a7640ab20b5177d7d",
-							"size": "82648992"
-						},
-						{
-							"host": "x86_64-apple-darwin",
-							"url": "https://launchpad.net/gcc-arm-embedded/4.9/4.9-2015-q3-update/+download/gcc-arm-none-eabi-4_9-2015q3-20150921-mac.tar.bz2",
-							"archiveFileName": "gcc-arm-none-eabi-4_9-2015q3-20150921-mac.tar.bz2",
-							"checksum": "MD5:7886163ba5a1c17b560939e3dcf1382b",
-							"size": "77455989"
-						},
-						{
-							"host": "x86_64-pc-linux-gnu",
-							"url": "https://launchpad.net/gcc-arm-embedded/4.9/4.9-2015-q3-update/+download/gcc-arm-none-eabi-4_9-2015q3-20150921-linux.tar.bz2",
-							"archiveFileName": "gcc-arm-none-eabi-4_9-2015q3-20150921-linux.tar.bz2",
-							"checksum": "MD5:8a4a74872830f80c788c944877d3ad8c",
-							"size": "73710332"
-						},
-						{
-							"host": "i686-pc-linux-gnu",
-							"url": "https://launchpad.net/gcc-arm-embedded/4.9/4.9-2015-q3-update/+download/gcc-arm-none-eabi-4_9-2015q3-20150921-linux.tar.bz2",
-							"archiveFileName": "gcc-arm-none-eabi-4_9-2015q3-20150921-linux.tar.bz2",
-							"checksum": "MD5:8a4a74872830f80c788c944877d3ad8c",
-							"size": "73710332"
-						}
-					]
-			}
-	}
+    "packages":
+    {
+        "name":"RedBear",
+        "maintainer":"RedBear",
+        "websiteURL":"http://redbearlab.com",
+        "email":"support@redbearlab.com",
+        "help":{ "online":"https://redbearlab.zendesk.com/forums" },
+        "platforms": 
+        [
+            {
+                "name": "RedBear Duo (32-bits ARM Cortext-M3)",
+                "architecture": "STM32F2",
+                "version": "0.1.1",
+                "category": "RedBear",
+                "url": "https://redbearlab.github.io/arduino/Duo/duo_board_v011.zip",
+                "archiveFileName": "duo_board_v011.zip",
+                "checksum": "SHA-256:64039719B008DDF79743C71F7ED108A6A972E0B8A3F62B9D4769BF930FB8D408",
+                "size": "5610622",
+                "boards": {"name": "RedBear Duo"},
+                "toolsDependencies": 
+                [
+                    {
+                        "packager": "RedBear",
+                        "name": "arm-none-eabi-gcc",
+                        "version": "4.9-2015-q3"
+                    },
+                    {
+                        "packager":"arduino",
+                        "name":"avrdude",
+                        "version":"6.0.1-arduino5"
+                    }
+                ]
+            }
+        ],
+        "tools":
+        {
+            "name": "arm-none-eabi-gcc",
+            "version": "4.9-2015-q3",
+            "systems": 
+            [
+                {
+                    "host": "i686-mingw32",
+                    "archiveFileName": "gcc-arm-none-eabi-4_9-2015q3-20150921-win32.tar.bz2",
+                    "url": "https://redbearlab.github.io/gcc-arm/gcc-arm-none-eabi-4_9-2015q3-20150921-win32.tar.bz2",
+                    "checksum": "MD5:aef73c8af927427a7640ab20b5177d7d",
+                    "size": "82648992"
+                },
+                {
+                    "host": "x86_64-apple-darwin",
+                    "url": "https://launchpad.net/gcc-arm-embedded/4.9/4.9-2015-q3-update/+download/gcc-arm-none-eabi-4_9-2015q3-20150921-mac.tar.bz2",
+                    "archiveFileName": "gcc-arm-none-eabi-4_9-2015q3-20150921-mac.tar.bz2",
+                    "checksum": "MD5:7886163ba5a1c17b560939e3dcf1382b",
+                    "size": "77455989"
+                },
+                {
+                    "host": "x86_64-pc-linux-gnu",
+                    "url": "https://launchpad.net/gcc-arm-embedded/4.9/4.9-2015-q3-update/+download/gcc-arm-none-eabi-4_9-2015q3-20150921-linux.tar.bz2",
+                    "archiveFileName": "gcc-arm-none-eabi-4_9-2015q3-20150921-linux.tar.bz2",
+                    "checksum": "MD5:8a4a74872830f80c788c944877d3ad8c",
+                    "size": "73710332"
+                },
+                {
+                    "host": "i686-pc-linux-gnu",
+                    "url": "https://launchpad.net/gcc-arm-embedded/4.9/4.9-2015-q3-update/+download/gcc-arm-none-eabi-4_9-2015q3-20150921-linux.tar.bz2",
+                    "archiveFileName": "gcc-arm-none-eabi-4_9-2015q3-20150921-linux.tar.bz2",
+                    "checksum": "MD5:8a4a74872830f80c788c944877d3ad8c",
+                    "size": "73710332"
+                }
+            ]
+        }
+    }
 }
