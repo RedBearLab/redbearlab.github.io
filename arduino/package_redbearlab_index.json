@@ -79,10 +79,10 @@
 					"size": "1382924",
 					"boards": 
 						[
-							{"name": "RBL nRF51822"},
-							{"name": "RBL nRF51822 (32K RAM)"},
-							{"name": "BLE Nano"},
-							{"name": "BLE Nano (32K RAM)"}
+							{"name": "RBL nRF51822(V1.0 16KB)"},
+							{"name": "RBL nRF51822(V1.5 32KB)"},
+							{"name": "BLE Nano(V1.0 16KB)"},
+							{"name": "BLE Nano(V1.5 32KB)"}
 						],
 					"toolsDependencies": 
 						[
