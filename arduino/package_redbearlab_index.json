@@ -39,6 +39,36 @@
 						]
 				},
 				{
+					"name":"RedBearLab AVR Boards",
+					"architecture":"avr",
+					"version":"1.0.1",
+					"category":"RedBearLab",
+					"url":"https://redbearlab.github.io/arduino/Blend/blend_boards_v101.zip",
+					"archiveFileName":"blend_boards_v101.zip",
+					"checksum":"SHA-256:47C84055150EF3500AA9CF9797D322E91A0CE13362C75B3B024FCFF07CAD49A7",
+					"size":"53288",
+					"help":{ "online":"https://redbearlab.zendesk.com/home" },
+					"boards":
+						[
+							{ "name":"Blend" },
+							{ "name":"BlendMicro 3.3v/8MHz" },
+							{ "name":"BlendMicro 3.3v/16MHz(overclock)" }
+						],
+					"toolsDependencies":
+						[
+							{
+								"packager":"arduino",
+								"name":"avr-gcc",
+								"version":"4.8.1-arduino5"
+							},
+							{
+								"packager":"arduino",
+								"name":"avrdude",
+								"version":"6.0.1-arduino5"
+							}
+						]
+				},
+				{
 					"name": "RedBearLab nRF51822 Boards (32-bits ARM Cortex-M0)",
 					"architecture": "nRF51822",
 					"version": "1.0.0",
