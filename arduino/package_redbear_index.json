@@ -39,8 +39,8 @@
                 "category": "RedBear",
                 "url": "https://redbearlab.github.io/arduino/Duo/duo_board_v020.zip",
                 "archiveFileName": "duo_board_v020.zip",
-                "checksum": "SHA-256:355338B5B542BF8D80B4B24D9D1447AA2219D85BC5B92B8F3E7963F74E17FDA7",
-                "size": "5744967",
+                "checksum": "SHA-256:60E2FFE9F3C086ED59C1D874D8068066A32BE7105929BCA57A4A182902724571",
+                "size": "5745035",
                 "boards": {"name": "RedBear Duo"},
                 "toolsDependencies": 
                 [
