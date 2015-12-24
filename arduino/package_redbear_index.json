@@ -59,12 +59,12 @@
             {
                 "name": "RedBear Duo (32-bits ARM Cortext-M3)",
                 "architecture": "STM32F2",
-                "version": "0.2.0.1",
+                "version": "0.2.0a",
                 "category": "RedBear",
-                "url": "https://redbearlab.github.io/arduino/Duo/duo_board_v0201.zip",
-                "archiveFileName": "duo_board_v0201.zip",
-                "checksum": "SHA-256:16849E8DAE376200615F5A1634114F33A5A785D535D8DDB6BBF6E9A3430B5E2B",
-                "size": "5746589",
+                "url": "https://redbearlab.github.io/arduino/Duo/duo_board_v020a.zip",
+                "archiveFileName": "duo_board_v020a.zip",
+                "checksum": "SHA-256:D2ECE2D403EBBCE598DF5F65A94F8F029DC1A363770897A18206FDEBC464036D",
+                "size": "5745819",
                 "boards": {"name": "RedBear Duo"},
                 "toolsDependencies": 
                 [
