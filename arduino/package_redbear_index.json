@@ -31,54 +31,6 @@
                         "version":"6.0.1-arduino5"
                     }
                 ]
-            },
-            {
-                "name": "RedBear Duo (32-bits ARM Cortext-M3)",
-                "architecture": "STM32F2",
-                "version": "0.2.0",
-                "category": "RedBear",
-                "url": "https://redbearlab.github.io/arduino/Duo/duo_board_v020.zip",
-                "archiveFileName": "duo_board_v020.zip",
-                "checksum": "SHA-256:60E2FFE9F3C086ED59C1D874D8068066A32BE7105929BCA57A4A182902724571",
-                "size": "5745035",
-                "boards": {"name": "RedBear Duo"},
-                "toolsDependencies": 
-                [
-                    {
-                        "packager": "RedBear",
-                        "name": "arm-none-eabi-gcc",
-                        "version": "4.9-2015-q3"
-                    },
-                    {
-                        "packager":"arduino",
-                        "name":"avrdude",
-                        "version":"6.0.1-arduino5"
-                    }
-                ]
-            },
-            {
-                "name": "RedBear Duo (32-bits ARM Cortext-M3)",
-                "architecture": "STM32F2",
-                "version": "0.2.1",
-                "category": "RedBear",
-                "url": "https://redbearlab.github.io/arduino/Duo/duo_board_v021.zip",
-                "archiveFileName": "duo_board_v021.zip",
-                "checksum": "SHA-256:A906BDF4DE29D47740D46DA65B3B237882D9A1BC206CC7A03DA05BCAC4B757B8",
-                "size": "5745049",
-                "boards": {"name": "RedBear Duo"},
-                "toolsDependencies": 
-                [
-                    {
-                        "packager": "RedBear",
-                        "name": "arm-none-eabi-gcc",
-                        "version": "4.9-2015-q3"
-                    },
-                    {
-                        "packager":"arduino",
-                        "name":"avrdude",
-                        "version":"6.0.1-arduino5"
-                    }
-                ]
             }
         ],
         "tools":
