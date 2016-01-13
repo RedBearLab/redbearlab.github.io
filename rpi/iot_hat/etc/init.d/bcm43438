@@ -1,0 +1,17 @@
+#! /bin/sh
+
+. /lib/lsb/init-functions
+
+do_start () {
+
+      gpio -g mode 16 alt3
+      gpio -g mode 17 alt3
+      hciconfig
+      insmod /lib/modules/4.1.15-v7+/kernel/drivers/bluetooth/hci_uart.ko
+      insmod /lib/modules/4.1.15+/kernel/drivers/bluetooth/hci_uart.ko
+      /usr/bin/brcm -d --patchram /lib/firmware/ap6212a/43438A1-37400.hcd --enable_hci --no2bytes --tosleep 1000 /dev/ttyAMA0 > /var/log/bcm43438.firmware 2>&1
+
+}
+
+do_start
+
