@@ -13,10 +13,10 @@
                 "architecture": "STM32F2",
                 "version": "0.2.4",
                 "category": "RedBear",
-                "url": "https://redbearlab.github.io/arduino/Duo/duo_board_v024-beta.tar.gz",
-                "archiveFileName": "duo_board_v024-beta.tar.gz",
-                "checksum": "SHA-256:1E8B434B3F3F8DA4673C42C386E34F52834340C936C39E94CACC528A3B470D0C",
-                "size": "7722743",
+                "url": "https://redbearlab.github.io/arduino/Duo/duo_board_v0.2.4.tar.gz",
+                "archiveFileName": "duo_board_v0.2.4.tar.gz",
+                "checksum": "SHA-256:6CAEDFE438835B70331EA17C37CFDC74C8CADCA8397DA95BFBCE73C3143E2710",
+                "size": "7722715",
                 "boards": {"name": "RedBear Duo"},
                 "toolsDependencies": 
                 [
