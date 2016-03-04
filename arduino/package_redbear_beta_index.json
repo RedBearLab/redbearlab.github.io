@@ -9,7 +9,7 @@
         "platforms": 
         [
             {
-                "name": "RedBear Duo (32-bits ARM Cortext-M3)",
+                "name": "RedBear Duo (32-bits ARM Cortex-M3)",
                 "architecture": "STM32F2",
                 "version": "0.2.5",
                 "category": "RedBear",
