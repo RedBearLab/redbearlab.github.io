@@ -151,6 +151,30 @@
                         "version":"6.0.1-arduino5"
                     }
                 ]
+            },
+            {
+                "name": "RedBear Duo (32-bits ARM Cortex-M3)",
+                "architecture": "STM32F2",
+                "version": "0.2.6",
+                "category": "RedBear",
+                "url": "https://redbearlab.github.io/arduino/Duo/duo_board_v0.2.6.tar.gz",
+                "archiveFileName": "duo_board_v0.2.6.tar.gz",
+                "checksum": "SHA-256:20E05F6620EB44E11F44CB0EA25A6FE50EF18025496F394EA615A6B3660AD30F",
+                "size": "8354522",
+                "boards": {"name": "RedBear Duo"},
+                "toolsDependencies": 
+                [
+                    {
+                        "packager": "RedBear",
+                        "name": "arm-none-eabi-gcc",
+                        "version": "4.9-2015-q3"
+                    },
+                    {
+                        "packager":"arduino",
+                        "name":"avrdude",
+                        "version":"6.0.1-arduino5"
+                    }
+                ]
             }
         ],
         "tools":
