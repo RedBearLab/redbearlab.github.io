@@ -175,43 +175,116 @@
                         "version":"6.0.1-arduino5"
                     }
                 ]
+            },
+            {
+                "name": "RedBear Duo (32-bits ARM Cortex-M3)",
+                "architecture": "STM32F2",
+                "version": "0.2.7",
+                "category": "RedBear",
+                "url": "https://redbearlab.github.io/arduino/Duo/duo_board_v0.2.7.tar.gz",
+                "archiveFileName": "duo_board_v0.2.7.tar.gz",
+                "checksum": "SHA-256:eaa5f0aa273f2055ba42ef77c5ba232cccd3f15cf24c269c5fe4f3170f828e06",
+                "size": "8376510",
+                "boards": {"name": "RedBear Duo"},
+                "toolsDependencies": 
+                [
+                    {
+                        "packager": "RedBear",
+                        "name": "arm-none-eabi-gcc",
+                        "version": "4.9-2015-q3"
+                    },
+                    {
+                        "packager":"arduino",
+                        "name":"avrdude",
+                        "version":"6.0.1-arduino5"
+                    },
+					      {
+                        "packager": "arduino",
+                        "name": "openocd",
+                        "version": "0.9.0-arduino"
+                    }
+                ]
             }
         ],
         "tools":
-        {
-            "name": "arm-none-eabi-gcc",
-            "version": "4.9-2015-q3",
-            "systems": 
-            [
-                {
-                    "host": "i686-mingw32",
-                    "archiveFileName": "gcc-arm-none-eabi-4_9-2015q3-20150921-win32.tar.bz2",
-                    "url": "https://redbearlab.github.io/gcc-arm/gcc-arm-none-eabi-4_9-2015q3-20150921-win32.tar.bz2",
-                    "checksum": "MD5:aef73c8af927427a7640ab20b5177d7d",
-                    "size": "82648992"
-                },
-                {
-                    "host": "x86_64-apple-darwin",
-                    "url": "https://launchpad.net/gcc-arm-embedded/4.9/4.9-2015-q3-update/+download/gcc-arm-none-eabi-4_9-2015q3-20150921-mac.tar.bz2",
-                    "archiveFileName": "gcc-arm-none-eabi-4_9-2015q3-20150921-mac.tar.bz2",
-                    "checksum": "MD5:7886163ba5a1c17b560939e3dcf1382b",
-                    "size": "77455989"
-                },
-                {
-                    "host": "x86_64-pc-linux-gnu",
-                    "url": "https://launchpad.net/gcc-arm-embedded/4.9/4.9-2015-q3-update/+download/gcc-arm-none-eabi-4_9-2015q3-20150921-linux.tar.bz2",
-                    "archiveFileName": "gcc-arm-none-eabi-4_9-2015q3-20150921-linux.tar.bz2",
-                    "checksum": "MD5:8a4a74872830f80c788c944877d3ad8c",
-                    "size": "73710332"
-                },
-                {
-                    "host": "i686-pc-linux-gnu",
-                    "url": "https://launchpad.net/gcc-arm-embedded/4.9/4.9-2015-q3-update/+download/gcc-arm-none-eabi-4_9-2015q3-20150921-linux.tar.bz2",
-                    "archiveFileName": "gcc-arm-none-eabi-4_9-2015q3-20150921-linux.tar.bz2",
-                    "checksum": "MD5:8a4a74872830f80c788c944877d3ad8c",
-                    "size": "73710332"
-                }
-            ]
-        }
+        [
+            {
+                "name": "arm-none-eabi-gcc",
+                "version": "4.9-2015-q3",
+                "systems": 
+                [
+                    {
+                        "host": "i686-mingw32",
+                        "archiveFileName": "gcc-arm-none-eabi-4_9-2015q3-20150921-win32.tar.bz2",
+                        "url": "https://redbearlab.github.io/gcc-arm/gcc-arm-none-eabi-4_9-2015q3-20150921-win32.tar.bz2",
+                        "checksum": "MD5:aef73c8af927427a7640ab20b5177d7d",
+                        "size": "82648992"
+                    },
+                    {
+                        "host": "x86_64-apple-darwin",
+                        "url": "https://launchpad.net/gcc-arm-embedded/4.9/4.9-2015-q3-update/+download/gcc-arm-none-eabi-4_9-2015q3-20150921-mac.tar.bz2",
+                        "archiveFileName": "gcc-arm-none-eabi-4_9-2015q3-20150921-mac.tar.bz2",
+                        "checksum": "MD5:7886163ba5a1c17b560939e3dcf1382b",
+                        "size": "77455989"
+                    },
+                    {
+                        "host": "x86_64-pc-linux-gnu",
+                        "url": "https://launchpad.net/gcc-arm-embedded/4.9/4.9-2015-q3-update/+download/gcc-arm-none-eabi-4_9-2015q3-20150921-linux.tar.bz2",
+                        "archiveFileName": "gcc-arm-none-eabi-4_9-2015q3-20150921-linux.tar.bz2",
+                        "checksum": "MD5:8a4a74872830f80c788c944877d3ad8c",
+                        "size": "73710332"
+                    },
+                    {
+                        "host": "i686-pc-linux-gnu",
+                        "url": "https://launchpad.net/gcc-arm-embedded/4.9/4.9-2015-q3-update/+download/gcc-arm-none-eabi-4_9-2015q3-20150921-linux.tar.bz2",
+                        "archiveFileName": "gcc-arm-none-eabi-4_9-2015q3-20150921-linux.tar.bz2",
+                        "checksum": "MD5:8a4a74872830f80c788c944877d3ad8c",
+                        "size": "73710332"
+                    }
+                ]
+            },
+            {
+                "name": "openocd",
+                "version": "0.9.0-arduino",
+                "systems": 
+                [
+                    {
+                        "host": "arm-linux-gnueabihf",
+                        "url": "http://downloads.arduino.cc/tools/OpenOCD-0.9.0-arduino-arm-linux-gnueabihf.tar.bz2",
+                        "archiveFileName": "OpenOCD-0.9.0-dev-arduino-arm-linux-gnueabihf.tar.bz2",
+                        "checksum": "SHA-256:a84e7c4cba853f2c937d77286f8a0ca317447d3873e51cbd2a2d41424e044a18",
+                        "size": "1402283"
+                    },
+                    {
+                        "host": "i686-mingw32",
+                        "url": "http://downloads.arduino.cc/tools/OpenOCD-0.9.0-arduino-i686-pc-cygwin.tar.bz2",
+                        "archiveFileName": "OpenOCD-0.9.0-arduino-i686-pc-cygwin.tar.bz2",
+                        "checksum": "SHA-256:5310bdd3730168a33b09b68558e908ca8b2fec25620c488f50a5fb35d0d1effd",
+                        "size": "2360705"
+                    },
+                    {
+                        "host": "x86_64-apple-darwin",
+                        "url": "http://downloads.arduino.cc/tools/OpenOCD-0.9.0-arduino-x86_64-apple-darwin14.3.0.tar.bz2",
+                        "archiveFileName": "OpenOCD-0.9.0-arduino-x86_64-apple-darwin14.3.0.tar.bz2",
+                        "checksum": "SHA-256:ef90769c07b8018cec3a5054e690ac6c196e03720e102ac5038c3f9da4e44782",
+                        "size": "2275101"
+                    },
+                    {
+                        "host": "x86_64-pc-linux-gnu",
+                        "url": "http://downloads.arduino.cc/tools/OpenOCD-0.9.0-arduino-x86_64-linux-gnu.tar.bz2",
+                        "archiveFileName": "OpenOCD-0.9.0-arduino-x86_64-linux-gnu.tar.bz2",
+                        "checksum": "SHA-256:c350409f7badf213dfcc516ea34289461ad92d87806e8e33945508a2c6b2c0b3",
+                        "size": "1210796"
+                    },
+                    {
+                        "host": "i686-pc-linux-gnu",
+                        "url": "http://downloads.arduino.cc/tools/OpenOCD-0.9.0-arduino-i486-linux-gnu.tar.bz2",
+                        "archiveFileName": "OpenOCD-0.9.0-arduino-i486-linux-gnu.tar.bz2",
+                        "checksum": "SHA-256:4c9793dfd7822b0fc959d039e5ecabfa89092ee2911abfdc7b5905deb171499a",
+                        "size": "1129654"
+                    }
+                ]
+            }
+        ]
     }
 }
