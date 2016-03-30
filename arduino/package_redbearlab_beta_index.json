@@ -12,12 +12,12 @@
 				{
 					"name": "RedBearLab nRF51822 Boards (32-bits ARM Cortex-M0)",
 					"architecture": "nRF51822",
-					"version": "1.0.5",
+					"version": "1.0.6",
 					"category": "RedBearLab",
-					"url": "https://redbearlab.github.io/arduino/nRF51822/nRF51822_board_v105.zip",
-					"archiveFileName": "nRF51822_board_v105.zip",
-					"checksum": "SHA-256:04D62B0C5094C90242123657E11A0548B8F220AE52A1E2805D2B3A810D9B63EA",
-					"size": "1100337",
+					"url": "https://redbearlab.github.io/arduino/nRF51822/nRF51822_board_v106.zip",
+					"archiveFileName": "nRF51822_board_v106.zip",
+					"checksum": "SHA-256:28CA80F0CE9AFC1CD1C0C9B1CB874047ED7E4BF12374119AE17AADD3B7962D4F",
+					"size": "1272158",
 					"boards": 
 						[
 							{"name": "RBL nRF51822(V1.0 16KB)"},
@@ -45,7 +45,7 @@
 						]
 				}
 			],
-		"tools":
+        "tools":
 			[
 				{
 					"name": "arm-none-eabi-gcc",
@@ -82,6 +82,48 @@
 							}
 						]
 				},
+                {
+                    "name": "openocd",
+                    "version": "0.9.0-arduino",
+                    "systems": 
+                        [
+                            {
+                                "host": "arm-linux-gnueabihf",
+                                "url": "http://downloads.arduino.cc/tools/OpenOCD-0.9.0-arduino-arm-linux-gnueabihf.tar.bz2",
+                                "archiveFileName": "OpenOCD-0.9.0-dev-arduino-arm-linux-gnueabihf.tar.bz2",
+                                "checksum": "SHA-256:a84e7c4cba853f2c937d77286f8a0ca317447d3873e51cbd2a2d41424e044a18",
+                                "size": "1402283"
+                            },
+                            {
+                                "host": "i686-mingw32",
+                                "url": "http://downloads.arduino.cc/tools/OpenOCD-0.9.0-arduino-i686-pc-cygwin.tar.bz2",
+                                "archiveFileName": "OpenOCD-0.9.0-arduino-i686-pc-cygwin.tar.bz2",
+                                "checksum": "SHA-256:5310bdd3730168a33b09b68558e908ca8b2fec25620c488f50a5fb35d0d1effd",
+                                "size": "2360705"
+                            },
+                            {
+                                "host": "x86_64-apple-darwin",
+                                "url": "http://downloads.arduino.cc/tools/OpenOCD-0.9.0-arduino-x86_64-apple-darwin14.3.0.tar.bz2",
+                                "archiveFileName": "OpenOCD-0.9.0-arduino-x86_64-apple-darwin14.3.0.tar.bz2",
+                                "checksum": "SHA-256:ef90769c07b8018cec3a5054e690ac6c196e03720e102ac5038c3f9da4e44782",
+                                "size": "2275101"
+                            },
+                            {
+                                "host": "x86_64-pc-linux-gnu",
+                                "url": "http://downloads.arduino.cc/tools/OpenOCD-0.9.0-arduino-x86_64-linux-gnu.tar.bz2",
+                                "archiveFileName": "OpenOCD-0.9.0-arduino-x86_64-linux-gnu.tar.bz2",
+                                "checksum": "SHA-256:c350409f7badf213dfcc516ea34289461ad92d87806e8e33945508a2c6b2c0b3",
+                                "size": "1210796"
+                            },
+                            {
+                                "host": "i686-pc-linux-gnu",
+                                "url": "http://downloads.arduino.cc/tools/OpenOCD-0.9.0-arduino-i486-linux-gnu.tar.bz2",
+                                "archiveFileName": "OpenOCD-0.9.0-arduino-i486-linux-gnu.tar.bz2",
+                                "checksum": "SHA-256:4c9793dfd7822b0fc959d039e5ecabfa89092ee2911abfdc7b5905deb171499a",
+                                "size": "1129654"
+                            }
+                        ]
+                },
 				{
 					"name": "bossac",
 					"version": "1.3a-arduino",
