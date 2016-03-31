@@ -6,7 +6,7 @@ do_start () {
 
       gpio -g mode 16 alt3
       gpio -g mode 17 alt3
-      /usr/bin/brcm -d --patchram /lib/firmware/BCM43430A1.hcd --enable_hci --no2bytes --tosleep 1000 /dev/ttyAMA0 > /var/log/bt.firmware 2>&1
+      hciattach -b /dev/ttyAMA0 bcm43xx 115200 -
 
 }
 
