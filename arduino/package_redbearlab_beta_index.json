@@ -12,12 +12,12 @@
 				{
 					"name": "RedBearLab nRF51822 Boards (32-bits ARM Cortex-M0)",
 					"architecture": "nRF51822",
-					"version": "1.0.6",
+					"version": "1.0.7",
 					"category": "RedBearLab",
-					"url": "https://redbearlab.github.io/arduino/nRF51822/nRF51822_board_v106.zip",
-					"archiveFileName": "nRF51822_board_v106.zip",
-					"checksum": "SHA-256:28CA80F0CE9AFC1CD1C0C9B1CB874047ED7E4BF12374119AE17AADD3B7962D4F",
-					"size": "1272158",
+					"url": "https://redbearlab.github.io/arduino/nRF51822/nRF51822_board_v107.zip",
+					"archiveFileName": "nRF51822_board_v107.zip",
+					"checksum": "SHA-256:17B02F5C784AA96162EDA924C0AA867BC64BA11DB73BE9F8D76BC2C8EDC79444",
+					"size": "1272279",
 					"boards": 
 						[
 							{"name": "RBL nRF51822(V1.0 16KB)"},
