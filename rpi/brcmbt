@@ -4,9 +4,16 @@
 
 do_start () {
 
+      # enable the BT module, pull high to the reset pin
+      gpio -g mode 5 out
+      pgio -g write 5 1
+      
+      # enable hardware flow control (CTS/RTS)
       gpio -g mode 16 alt3
       gpio -g mode 17 alt3
-      hciattach -b /dev/ttyAMA0 bcm43xx 115200 -
+      
+      # attach the BT to the system
+      hciattach -b /dev/ttyAMA0 bcm43xx 921600 -
 
 }
 
