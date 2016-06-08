@@ -207,7 +207,7 @@
                                 "version":"6.0.1-arduino5"
                             }
                         ]
-                }
+                },
                 {
                     "name": "RedBearLab nRF51822 Boards (32-bits ARM Cortex-M0)",
                     "architecture": "nRF51822",
@@ -242,7 +242,7 @@
                                 "version":"6.0.1-arduino5"
                             }
                         ]
-                }                
+                }
             ],
         "tools":
             [
