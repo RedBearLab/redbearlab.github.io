@@ -8,44 +8,93 @@
         "help":{ "online":"https://redbearlab.zendesk.com/forums" },
         "platforms": 
             [
-    
                 {
-                    "name": "RedBearLab nRF51822 Boards (32-bits ARM Cortex-M0)",
-                    "architecture": "nRF51822",
-                    "version": "1.0.8",
-                    "category": "RedBearLab",
-                    "url": "https://redbearlab.github.io/arduino/nRF51822/nRF51822_board_beta_v108.zip",
-                    "archiveFileName": "nRF51822_board_beta_v108.zip",
-                    "checksum": "SHA-256:6B0762A846DDD40A9C713CB4CE5A1F05B1ECF937A7510C9B9B38A2CD1777B1FD",
-                    "size": "1470108",
-                    "boards": 
+                    "name":"RedBearLab AVR Boards",
+                    "architecture":"avr",
+                    "version":"1.0.0",
+                    "category":"RedBearLab",
+                    "url":"https://redbearlab.github.io/arduino/Blend/blend_boards.zip",
+                    "archiveFileName":"blend_boards.zip",
+                    "checksum":"SHA-256:B7D6590629FD2720986B2F06891C63654F7BFE708BF5134FB7E41BD5B4781802",
+                    "size":"52218",
+                    "help":{ "online":"https://redbearlab.zendesk.com/home" },
+                    "boards":
                         [
-                            {"name": "RBL nRF51822(V1.0 16KB)"},
-                            {"name": "RBL nRF51822(V1.5 32KB)"},
-                            {"name": "BLE Nano(V1.0 16KB)"},
-                            {"name": "BLE Nano(V1.5 32KB)"}
+                            { "name":"Blend" },
+                            { "name":"BlendMicro 3.3v/8MHz" },
+                            { "name":"BlendMicro 3.3v/16MHz(overclock)" }
                         ],
-                    "toolsDependencies": 
+                    "toolsDependencies":
                         [
                             {
-                                "packager": "RedBearLab",
-                                "name": "arm-none-eabi-gcc",
-                                "version": "4.8.3-2014q1"
-                            },
-                            {
-                                "packager": "RedBearLab",
-                                "name": "bossac",
-                                "version": "1.3a-arduino"
+                                "packager":"arduino",
+                                "name":"avr-gcc",
+                                "version":"4.8.1-arduino5"
                             },
                             {
                                 "packager":"arduino",
                                 "name":"avrdude",
                                 "version":"6.0.1-arduino5"
+                            }
+                        ]
+                },
+                {
+                    "name":"RedBearLab AVR Boards",
+                    "architecture":"avr",
+                    "version":"1.0.2",
+                    "category":"RedBearLab",
+                    "url":"https://redbearlab.github.io/arduino/Blend/blend_boards_v102.zip",
+                    "archiveFileName":"blend_boards_v102.zip",
+                    "checksum":"SHA-256:1EDE306E1E65507486D7C6E88F6BF4E427A21C0BEC8FE3E12939ABF5A8FEAB39",
+                    "size":"53286",
+                    "help":{ "online":"https://redbearlab.zendesk.com/home" },
+                    "boards":
+                        [
+                            { "name":"Blend" },
+                            { "name":"BlendMicro 3.3v/8MHz" },
+                            { "name":"BlendMicro 3.3v/16MHz(overclock)" }
+                        ],
+                    "toolsDependencies":
+                        [
+                            {
+                                "packager":"arduino",
+                                "name":"avr-gcc",
+                                "version":"4.8.1-arduino5"
                             },
                             {
-                                "packager": "arduino",
-                                "name": "openocd",
-                                "version": "0.9.0-arduino"
+                                "packager":"arduino",
+                                "name":"avrdude",
+                                "version":"6.0.1-arduino5"
+                            }
+                        ]
+                },
+                {
+                    "name":"RedBearLab AVR Boards",
+                    "architecture":"avr",
+                    "version":"1.0.3",
+                    "category":"RedBearLab",
+                    "url":"https://redbearlab.github.io/arduino/Blend/blend_boards_v103.zip",
+                    "archiveFileName":"blend_boards_v103.zip",
+                    "checksum":"SHA-256:8D24E9F4F59A2408AB0C63D95B0E90FA11AB443E5946345C3AE302290B75F8CD",
+                    "size":"44966",
+                    "help":{ "online":"https://redbearlab.zendesk.com/home" },
+                    "boards":
+                        [
+                            { "name":"Blend" },
+                            { "name":"BlendMicro 3.3v/8MHz" },
+                            { "name":"BlendMicro 3.3v/16MHz(overclock)" }
+                        ],
+                    "toolsDependencies":
+                        [
+                            {
+                                "packager":"arduino",
+                                "name":"avr-gcc",
+                                "version":"4.8.1-arduino5"
+                            },
+                            {
+                                "packager":"arduino",
+                                "name":"avrdude",
+                                "version":"6.0.1-arduino5"
                             }
                         ]
                 }
