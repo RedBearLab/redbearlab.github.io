@@ -71,12 +71,12 @@
                 {
                     "name":"RedBearLab AVR Boards",
                     "architecture":"avr",
-                    "version":"1.0.3",
+                    "version":"1.0.4",
                     "category":"RedBearLab",
-                    "url":"https://redbearlab.github.io/arduino/Blend/blend_boards_v103.zip",
-                    "archiveFileName":"blend_boards_v103.zip",
-                    "checksum":"SHA-256:8D24E9F4F59A2408AB0C63D95B0E90FA11AB443E5946345C3AE302290B75F8CD",
-                    "size":"44966",
+                    "url":"https://redbearlab.github.io/arduino/Blend/blend_boards_v104.zip",
+                    "archiveFileName":"blend_boards_v104.zip",
+                    "checksum":"SHA-256:B83B1A433A70D22A5446F7761C71A97F40E2F24E5E5BD1C8E66AD21829CE8393",
+                    "size":"45342",
                     "help":{ "online":"https://redbearlab.zendesk.com/home" },
                     "boards":
                         [
