@@ -34,7 +34,7 @@
                     {
                         "packager": "RedBearLab",
                         "name": "openocd",
-                        "version": "0.10.0-dev-sandeepmistry.nrf5"
+                        "version": "0.10.0-dev-nrf5"
                     }
                 ]
             }
@@ -78,7 +78,7 @@
             },
             {
                 "name": "openocd",
-                "version": "0.10.0-dev.nrf5",
+                "version": "0.10.0-dev-nrf5",
                 "systems":
                 [
                     {
