@@ -6,7 +6,7 @@ do_start () {
 
       # enable the BT module, pull high to the reset pin
       gpio -g mode 5 out
-      pgio -g write 5 1
+      gpio -g write 5 1
       
       # enable hardware flow control (CTS/RTS)
       gpio -g mode 16 alt3
