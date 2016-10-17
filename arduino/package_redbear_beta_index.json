@@ -4,9 +4,9 @@
         {
             "name":"RedBear",
             "maintainer":"RedBear",
-            "websiteURL":"http://redbearlab.com",
-            "email":"support@redbearlab.com",
-            "help":{ "online":"https://redbearlab.zendesk.com/forums" },
+            "websiteURL":"http://redbear.cc",
+            "email":"support@redbear.cc",
+            "help":{ "online":"http://discuss.redbear.cc" },
             "platforms": 
             [
                 {
