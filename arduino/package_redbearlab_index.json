@@ -2,11 +2,11 @@
     "packages":
     [
         {
-            "name":"RedBearLab",
-            "maintainer":"RedBearLab",
-            "websiteURL":"http://redbearlab.com",
-            "email":"support@redbearlab.com",
-            "help":{ "online":"https://redbearlab.zendesk.com/forums" },
+            "name":"RedBear",
+            "maintainer":"RedBear",
+            "websiteURL":"http://redbear.cc",
+            "email":"info@redbear.cc",
+            "help":{ "online":"http://redbear.cc" },
             "platforms": 
             [
                 {
