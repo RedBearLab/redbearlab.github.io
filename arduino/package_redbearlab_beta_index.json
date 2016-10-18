@@ -2,18 +2,18 @@
     "packages":
     [
         {
-            "name":"RedBearLab",
-            "maintainer":"RedBearLab",
+            "name":"RedBear",
+            "maintainer":"RedBear",
             "websiteURL":"http://redbearlab.com",
             "email":"support@redbearlab.com",
             "help":{ "online":"https://redbearlab.zendesk.com/forums" },
             "platforms": 
                 [
                     {
-                        "name":"RedBearLab AVR Boards",
+                        "name":"RedBear AVR Boards",
                         "architecture":"avr",
                         "version":"1.0.0",
-                        "category":"RedBearLab",
+                        "category":"RedBear",
                         "url":"https://redbearlab.github.io/arduino/Blend/blend_boards.zip",
                         "archiveFileName":"blend_boards.zip",
                         "checksum":"SHA-256:B7D6590629FD2720986B2F06891C63654F7BFE708BF5134FB7E41BD5B4781802",
@@ -40,10 +40,10 @@
                             ]
                     },
                     {
-                        "name":"RedBearLab AVR Boards",
+                        "name":"RedBear AVR Boards",
                         "architecture":"avr",
                         "version":"1.0.2",
-                        "category":"RedBearLab",
+                        "category":"RedBear",
                         "url":"https://redbearlab.github.io/arduino/Blend/blend_boards_v102.zip",
                         "archiveFileName":"blend_boards_v102.zip",
                         "checksum":"SHA-256:1EDE306E1E65507486D7C6E88F6BF4E427A21C0BEC8FE3E12939ABF5A8FEAB39",
@@ -70,10 +70,10 @@
                             ]
                     },
                     {
-                        "name":"RedBearLab AVR Boards",
+                        "name":"RedBear AVR Boards",
                         "architecture":"avr",
                         "version":"1.0.4",
-                        "category":"RedBearLab",
+                        "category":"RedBear",
                         "url":"https://redbearlab.github.io/arduino/Blend/blend_boards_v104.zip",
                         "archiveFileName":"blend_boards_v104.zip",
                         "checksum":"SHA-256:B83B1A433A70D22A5446F7761C71A97F40E2F24E5E5BD1C8E66AD21829CE8393",

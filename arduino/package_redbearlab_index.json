@@ -10,10 +10,10 @@
             "platforms": 
             [
                 {
-                    "name":"RedBearLab AVR Boards",
+                    "name":"RedBear AVR Boards",
                     "architecture":"avr",
                     "version":"1.0.0",
-                    "category":"RedBearLab",
+                    "category":"RedBear",
                     "url":"https://redbearlab.github.io/arduino/Blend/blend_boards.zip",
                     "archiveFileName":"blend_boards.zip",
                     "checksum":"SHA-256:B7D6590629FD2720986B2F06891C63654F7BFE708BF5134FB7E41BD5B4781802",
@@ -40,10 +40,10 @@
                     ]
                 },
                 {
-                    "name":"RedBearLab AVR Boards",
+                    "name":"RedBear AVR Boards",
                     "architecture":"avr",
                     "version":"1.0.2",
-                    "category":"RedBearLab",
+                    "category":"RedBear",
                     "url":"https://redbearlab.github.io/arduino/Blend/blend_boards_v102.zip",
                     "archiveFileName":"blend_boards_v102.zip",
                     "checksum":"SHA-256:1EDE306E1E65507486D7C6E88F6BF4E427A21C0BEC8FE3E12939ABF5A8FEAB39",
@@ -70,10 +70,10 @@
                     ]
                 },
                 {
-                    "name":"RedBearLab AVR Boards",
+                    "name":"RedBear AVR Boards",
                     "architecture":"avr",
                     "version":"1.0.3",
-                    "category":"RedBearLab",
+                    "category":"RedBear",
                     "url":"https://redbearlab.github.io/arduino/Blend/blend_boards_v103.zip",
                     "archiveFileName":"blend_boards_v103.zip",
                     "checksum":"SHA-256:1C15097B71D8E4AF50B1FF4D45CC4AFA77AA3A98B008606E4D3057459F8C3109",
@@ -100,10 +100,10 @@
                     ]
                 },
                 {
-                    "name": "RedBearLab nRF51822 Boards (32-bits ARM Cortex-M0)",
+                    "name": "RedBear nRF51822 Boards (32-bits ARM Cortex-M0)",
                     "architecture": "nRF51822",
                     "version": "1.0.0",
-                    "category": "RedBearLab",
+                    "category": "RedBear",
                     "url": "https://redbearlab.github.io/arduino/nRF51822/nRF51822_board.zip",
                     "archiveFileName": "nRF51822_board.zip",
                     "checksum": "SHA-256:A89B5C7EDCA505A495DEF6D80ACA86DCE058EF29E584C4FF480400801FBFF989",
@@ -118,12 +118,12 @@
                     "toolsDependencies": 
                     [
                         {
-                            "packager": "RedBearLab",
+                            "packager": "RedBear",
                             "name": "arm-none-eabi-gcc",
                             "version": "4.8.3-2014q1"
                         },
                         {
-                            "packager": "RedBearLab",
+                            "packager": "RedBear",
                             "name": "bossac",
                             "version": "1.3a-arduino"
                         },
@@ -135,10 +135,10 @@
                     ]
                 },
                 {
-                    "name": "RedBearLab nRF51822 Boards (32-bits ARM Cortex-M0)",
+                    "name": "RedBear nRF51822 Boards (32-bits ARM Cortex-M0)",
                     "architecture": "nRF51822",
                     "version": "1.0.3",
-                    "category": "RedBearLab",
+                    "category": "RedBear",
                     "url": "https://redbearlab.github.io/arduino/nRF51822/nRF51822_board_v103.zip",
                     "archiveFileName": "nRF51822_board_v103.zip",
                     "checksum": "SHA-256:51F11E5154EFB31F54D99D96CAD52E8F1DAFAC45C899876155F339AFD13693D4",
@@ -153,12 +153,12 @@
                     "toolsDependencies": 
                     [
                         {
-                            "packager": "RedBearLab",
+                            "packager": "RedBear",
                             "name": "arm-none-eabi-gcc",
                             "version": "4.8.3-2014q1"
                         },
                         {
-                            "packager": "RedBearLab",
+                            "packager": "RedBear",
                             "name": "bossac",
                             "version": "1.3a-arduino"
                         },
@@ -170,10 +170,10 @@
                     ]
                 },
                 {
-                    "name": "RedBearLab nRF51822 Boards (32-bits ARM Cortex-M0)",
+                    "name": "RedBear nRF51822 Boards (32-bits ARM Cortex-M0)",
                     "architecture": "nRF51822",
                     "version": "1.0.4",
-                    "category": "RedBearLab",
+                    "category": "RedBear",
                     "url": "https://redbearlab.github.io/arduino/nRF51822/nRF51822_board_v104.zip",
                     "archiveFileName": "nRF51822_board_v104.zip",
                     "checksum": "SHA-256:0025B4783DE47022DF931F5D9C601C4DFF02DC27ACA04EBD7068191CBCDACAC2",
@@ -188,12 +188,12 @@
                     "toolsDependencies": 
                     [
                         {
-                            "packager": "RedBearLab",
+                            "packager": "RedBear",
                             "name": "arm-none-eabi-gcc",
                             "version": "4.8.3-2014q1"
                         },
                         {
-                            "packager": "RedBearLab",
+                            "packager": "RedBear",
                             "name": "bossac",
                             "version": "1.3a-arduino"
                         },
@@ -205,10 +205,10 @@
                     ]
                 },
                 {
-                    "name": "RedBearLab nRF51822 Boards (32-bits ARM Cortex-M0)",
+                    "name": "RedBear nRF51822 Boards (32-bits ARM Cortex-M0)",
                     "architecture": "nRF51822",
                     "version": "1.0.5",
-                    "category": "RedBearLab",
+                    "category": "RedBear",
                     "url": "https://redbearlab.github.io/arduino/nRF51822/nRF51822_board_v105.zip",
                     "archiveFileName": "nRF51822_board_v105.zip",
                     "checksum": "SHA-256:04D62B0C5094C90242123657E11A0548B8F220AE52A1E2805D2B3A810D9B63EA",
@@ -223,12 +223,12 @@
                     "toolsDependencies": 
                     [
                         {
-                            "packager": "RedBearLab",
+                            "packager": "RedBear",
                             "name": "arm-none-eabi-gcc",
                             "version": "4.8.3-2014q1"
                         },
                         {
-                            "packager": "RedBearLab",
+                            "packager": "RedBear",
                             "name": "bossac",
                             "version": "1.3a-arduino"
                         },
@@ -240,10 +240,10 @@
                     ]
                 },
                 {
-                    "name": "RedBearLab nRF51822 Boards (32-bits ARM Cortex-M0)",
+                    "name": "RedBear nRF51822 Boards (32-bits ARM Cortex-M0)",
                     "architecture": "nRF51822",
                     "version": "1.0.6",
-                    "category": "RedBearLab",
+                    "category": "RedBear",
                     "url": "https://redbearlab.github.io/arduino/nRF51822/nRF51822_board_v106.zip",
                     "archiveFileName": "nRF51822_board_v106.zip",
                     "checksum": "SHA-256:980C8CE156A9FD82EBF882F6CFD613105B191DC51D21256C4A8F1894FEA427C2",
@@ -258,12 +258,12 @@
                     "toolsDependencies": 
                     [
                         {
-                            "packager": "RedBearLab",
+                            "packager": "RedBear",
                             "name": "arm-none-eabi-gcc",
                             "version": "4.8.3-2014q1"
                         },
                         {
-                            "packager": "RedBearLab",
+                            "packager": "RedBear",
                             "name": "bossac",
                             "version": "1.3a-arduino"
                         },
@@ -280,10 +280,10 @@
                     ]
                 },
                 {
-                    "name": "RedBearLab nRF51822 Boards (32-bits ARM Cortex-M0)",
+                    "name": "RedBear nRF51822 Boards (32-bits ARM Cortex-M0)",
                     "architecture": "nRF51822",
                     "version": "1.0.7",
-                    "category": "RedBearLab",
+                    "category": "RedBear",
                     "url": "https://redbearlab.github.io/arduino/nRF51822/nRF51822_board_v107.zip",
                     "archiveFileName": "nRF51822_board_v107.zip",
                     "checksum": "SHA-256:A8D057ACEFC8BD4E8D873C4F1C8FEFEAA9B53AA03D8F4E27884D1D0E6990183B",
@@ -298,12 +298,12 @@
                     "toolsDependencies": 
                     [
                         {
-                            "packager": "RedBearLab",
+                            "packager": "RedBear",
                             "name": "arm-none-eabi-gcc",
                             "version": "4.8.3-2014q1"
                         },
                         {
-                            "packager": "RedBearLab",
+                            "packager": "RedBear",
                             "name": "openocd",
                             "version": "0.10.0-dev-nrf5"
                         }
