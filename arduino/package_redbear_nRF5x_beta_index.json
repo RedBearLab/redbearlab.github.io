@@ -1,0 +1,117 @@
+{
+    "packages":
+    [
+        {
+            "name":"RedBear",
+            "maintainer":"RedBear",
+            "websiteURL":"http://redbear.cc/",
+            "email":"info@redbear.cc",
+            "help":{ "online":"http://discuss.redbear.cc/" },
+            "platforms":
+            [
+                {
+                    "name": "RedBear nRF52832 Boards (32-bits ARM Cortex-M4F)",
+                    "architecture": "nRF52832",
+                    "version": "0.0.1",
+                    "category": "RedBear",
+                    "url": "https://redbearlab.github.io/arduino/nRF5x/nRF5x_board_v001.zip",
+                    "archiveFileName": "nRF5x_board_v001.zip",
+                    "checksum": "SHA-256:A33ED07CE322AC04BC0B9A17FE188B099A159B1AF62EF4B6663C68082B4E5C94",
+                    "size": "1734900",
+                    "boards":
+                    [
+                        {"name": "nRF52DK"},
+                        {"name": "RBL_BLEND2.0"},
+                        {"name": "BLE_Nano2.0"}
+                    ],
+                    "toolsDependencies":
+                    [
+                        {
+                            "packager": "RedBear",
+                            "name": "arm-none-eabi-gcc",
+                            "version": "4.8.3-2014q1"
+                        },
+                        {
+                            "packager": "RedBear",
+                            "name": "openocd",
+                            "version": "0.10.0-dev-nrf5"
+                        }
+                    ]
+                }
+            ],
+            "tools":
+            [
+                {
+                    "name": "arm-none-eabi-gcc",
+                    "version": "4.8.3-2014q1",
+                    "systems":
+                    [
+                        {
+                            "host": "i686-mingw32",
+                            "archiveFileName": "gcc-arm-none-eabi-4.8.3-2014q1-windows.tar.gz",
+                            "url": "http://downloads.arduino.cc/gcc-arm-none-eabi-4.8.3-2014q1-windows.tar.gz",
+                            "checksum": "SHA-256:fd8c111c861144f932728e00abd3f7d1107e186eb9cd6083a54c7236ea78b7c2",
+                            "size": "84537449"
+                        },
+                        {
+                            "host": "x86_64-apple-darwin",
+                            "url": "http://downloads.arduino.cc/gcc-arm-none-eabi-4.8.3-2014q1-mac.tar.gz",
+                            "archiveFileName": "gcc-arm-none-eabi-4.8.3-2014q1-mac.tar.gz",
+                            "checksum": "SHA-256:3598acf21600f17a8e4a4e8e193dc422b894dc09384759b270b2ece5facb59c2",
+                            "size": "52518522"
+                        },
+                        {
+                            "host": "x86_64-pc-linux-gnu",
+                            "url": "http://downloads.arduino.cc/gcc-arm-none-eabi-4.8.3-2014q1-linux64.tar.gz",
+                            "archiveFileName": "gcc-arm-none-eabi-4.8.3-2014q1-linux64.tar.gz",
+                            "checksum": "SHA-256:d23f6626148396d6ec42a5b4d928955a703e0757829195fa71a939e5b86eecf6",
+                            "size": "51395093"
+                        },
+                        {
+                            "host": "i686-pc-linux-gnu",
+                            "url": "http://downloads.arduino.cc/gcc-arm-none-eabi-4.8.3-2014q1-linux32.tar.gz",
+                            "archiveFileName": "gcc-arm-none-eabi-4.8.3-2014q1-linux32.tar.gz",
+                            "checksum": "SHA-256:ba1994235f69c526c564f65343f22ddbc9822b2ea8c5ee07dd79d89f6ace2498",
+                            "size": "51029223"
+                        }
+                    ]
+                },
+                {
+                    "name": "openocd",
+                    "version": "0.10.0-dev-nrf5",
+                    "systems":
+                    [
+                        {
+                            "host": "i386-apple-darwin11",
+                            "url": "https://github.com/sandeepmistry/arduino-nRF5/releases/download/tools/openocd-osx-0.10.0-dev-nrf5.tar.gz",
+                            "archiveFileName": "openocd-osx-0.10.0-dev-nrf5.tar.gz",
+                            "size": "1345243",
+                            "checksum": "MD5:3ffaa4e7cd4b96770eec65002c5959e3"
+                        },
+                        {
+                            "host": "i686-linux-gnu",
+                            "url": "https://github.com/sandeepmistry/arduino-nRF5/releases/download/tools/openocd-linux32-0.10.0-dev-nrf5.tar.gz",
+                            "archiveFileName": "openocd-linux32-0.10.0-dev-nrf5.tar.gz",
+                            "size": "3585042",
+                            "checksum": "MD5:02b3f4a3004cae86631bf13837c84504"
+                        },
+                        {
+                            "host": "x86_64-pc-linux-gnu",
+                            "url": "https://github.com/sandeepmistry/arduino-nRF5/releases/download/tools/openocd-linux32-0.10.0-dev-nrf5.tar.gz",
+                            "archiveFileName": "openocd-linux32-0.10.0-dev-nrf5.tar.gz",
+                            "size": "3585042",
+                            "checksum": "MD5:02b3f4a3004cae86631bf13837c84504"
+                        },
+                        {
+                            "host": "i686-mingw32",
+                            "url": "https://github.com/sandeepmistry/arduino-nRF5/releases/download/tools/openocd-win32-0.10.0-dev-nrf5.tar.gz",
+                            "archiveFileName": "openocd-win32-0.10.0-dev-nrf5.tar.gz",
+                            "size": "5498373",
+                            "checksum": "MD5:3acd3b08afda2bb09e75a0de5ac7c3cd"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
