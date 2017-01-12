@@ -308,6 +308,36 @@
                             "version": "0.10.0-dev-nrf5"
                         }
                     ]
+                },
+                {
+                    "name": "RedBear nRF51822 Boards (32-bits ARM Cortex-M0)",
+                    "architecture": "nRF51822",
+                    "version": "1.0.8",
+                    "category": "RedBear",
+                    "url": "https://redbearlab.github.io/arduino/nRF51822/nRF51822_board_v108.zip",
+                    "archiveFileName": "nRF51822_board_v108.zip",
+                    "checksum": "SHA-256:E3F9C15FCCA15EFBC3141611EB58BF6A9189C08BACFE53DC3E2EA8E54D797696",
+                    "size": "1475415",
+                    "boards": 
+                    [
+                        {"name": "RBL nRF51822(V1.0 16KB)"},
+                        {"name": "RBL nRF51822(V1.5 32KB)"},
+                        {"name": "BLE Nano(V1.0 16KB)"},
+                        {"name": "BLE Nano(V1.5 32KB)"}
+                    ],
+                    "toolsDependencies": 
+                    [
+                        {
+                            "packager": "RedBear",
+                            "name": "arm-none-eabi-gcc",
+                            "version": "4.8.3-2014q1"
+                        },
+                        {
+                            "packager": "RedBear",
+                            "name": "openocd",
+                            "version": "0.10.0-dev-nrf5"
+                        }
+                    ]
                 }
             ],
             "tools":
