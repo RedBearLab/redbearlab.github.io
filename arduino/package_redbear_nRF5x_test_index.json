@@ -338,7 +338,7 @@
                             "version": "0.10.0-dev-nrf5"
                         }
                     ]
-                }
+                },
                 {
                     "name": "RedBear nRF52832 Boards (32-bits ARM Cortex-M4F)",
                     "architecture": "nRF52832",
