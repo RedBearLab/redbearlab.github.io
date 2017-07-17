@@ -306,7 +306,36 @@
                             "version": "0.10.0-dev-nrf5"
                         }
                     ]
-                }				
+                },
+                {
+                    "name": "RedBear nRF52832 Boards (32-bits ARM Cortex-M4F)",
+                    "architecture": "nRF52832",
+                    "version": "0.0.3",
+                    "category": "RedBear",
+                    "url": "https://redbearlab.github.io/arduino/nRF5x/nRF5x_board_v003.zip",
+                    "archiveFileName": "nRF5x_board_v003.zip",
+                    "checksum": "SHA-256:BBB9912A0F0B40F204237A24855CCE763F8307FB301E081DAC230F231657A7D7",
+                    "size": "1815376",
+                    "boards":
+                    [
+                        {"name": "nRF52DK"},
+                        {"name": "RBL_BLEND2.0"},
+                        {"name": "BLE_Nano2.0"}
+                    ],
+                    "toolsDependencies":
+                    [
+                        {
+                            "packager": "RedBear",
+                            "name": "arm-none-eabi-gcc",
+                            "version": "4.8.3-2014q1"
+                        },
+                        {
+                            "packager": "RedBear",
+                            "name": "openocd",
+                            "version": "0.10.0-dev-nrf5"
+                        }
+                    ]
+                }						
             ],
             "tools":
             [
