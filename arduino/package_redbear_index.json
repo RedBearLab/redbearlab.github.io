@@ -399,7 +399,10 @@
                     "archiveFileName": "duo_board_v0.3.2.tar.gz",
                     "checksum": "SHA-256:F1FDA4361D54FAA5F33B08DFAF79E8353576A48947D56A88F93BD30AD32D6198",
                     "size": "13698522",
-                    "boards": {"name": "RedBear Duo"},
+                    "boards":
+                    [
+                        {"name": "RedBear Duo"}
+                    ],
                     "toolsDependencies": 
                     [
                         {
